@@ -1,5 +1,6 @@
 <template>
   <div>BLOG</div>
+  
 </template>
 
 <script>
