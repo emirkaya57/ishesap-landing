@@ -46,11 +46,79 @@ export default {
         media: "all",
         rel: "stylesheet",
       },
+      {
+        href: "css/owl.carousel.min.css",
+        rel:"stylesheet",
+      },
+      {
+        href: "css/flexslider.css",
+        rel:"stylesheet",
+      },
+      {
+        href: "css/owl.theme.default.min.css",
+        rel:"stylesheet",
+      },
+      {
+        href: "css/style.css",
+        rel:"stylesheet",
+      },
+      {
+        href: "css/animate.css",
+        rel:"stylesheet",
+      },
+      {
+        href: "css/responsive.css",
+        rel:"stylesheet",
+      },
+      {
+        href: "/css/slider.css",
+        rel:"stylesheet",
+      },
     ],
     script: [
       {
         src: "js/jquery-3.5.1.min.js",
       },
+      {
+        src:"js/bootstrap.min.js"
+      },
+      {
+        src:"js/modernizr.custom.js"
+      },
+      {
+        src:"js/jquery.easing.js"
+      },
+      {
+        src:"js/jquery.appear.js"
+      },
+      {
+        src:"js/jquery.scrollto.js"
+      },
+      {
+        src:"js/menu.js"
+      },
+      {
+        src:"js/jquery.flexslider.js"
+      },
+      {
+        src:"js/owl.carousel.min.js"
+      },
+      {
+        src:"js/jquery.magnific-popup.min.js"
+      },
+      {
+        src:"js/jquery.validate.min.js"
+      },
+      {
+        src:"js/jquery.ajaxchimp.min.js"
+      },
+      {
+        src:"js/wow.js"
+      },
+      {
+        src: "js/custom.js"
+          
+      }
     ],
   },
 
