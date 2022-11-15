@@ -1,0 +1,28 @@
+.yapim{
+        width: 100%;
+     height: 100vh; 
+     background: #1B3E56;
+}
+.yapimResim{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+   
+}
+.yapimYazi{
+    color: #fff;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    
+}
+.yaziDiv{
+    justify-content: center;
+    text-align: center;
+}
+.YapimButton{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

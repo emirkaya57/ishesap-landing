@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.pricing-wrap {
+    justify-content: center;
+    align-items: center;
+}
+
+.month-year-wrap {
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pricing-elements {
+    border: 1px solid rgb(228, 224, 224);
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 380px;
+    max-width: 100%;
+    max-width: 100%;
+    padding: 40px 10px;
+    -webkit-box-shadow: 6px 8px 5px -4px rgba(102, 97, 102, 1);
+    -moz-box-shadow: 6px 8px 5px -4px rgba(102, 97, 102, 1);
+    box-shadow: 6px 8px 5px -4px rgba(102, 97, 102, 1);
+}
+
+.pricing-subtitle {
+    display: block;
+}
+
+.pricing-elements .price-area {
+    background: gray;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+
+
+.pricing-elements .pricing-feature {
+    color: #576F72;
+    font-size: 1.3em;
+}
+
+.pricing-elements .pricing-feature ul li {
+    line-height: 2.5em;
+}
+
+.pricing-elements .pricing-feature ul li:before {
+    content: "✔";
+    display: inline-block;
+    margin-right: 8px;
+}
+
+
+
+.pricing-elements .btn-area {
+    margin-top: 50px;
+}
+
+
+.pricing-elements .btn-area a.btn-pricing {
+    background: gray;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 1.4em;
+}
+
+
+.pricing-elements.bg-orange .price-area, .pricing-elements.bg-orange a.btn-pricing {
+    background-color: #e96c13;
+}
+
+.pricing-elements.bg-aqua .price-area, .pricing-elements.bg-aqua a.btn-pricing {
+    background-color: #13aee9;
+}
+
+.pricing-elements.bg-orange .pricing-feature ul li:before {
+    color: #e96c13;
+}
+
+.pricing-elements.bg-aqua .pricing-feature ul li:before {
+    color: #13aee9;
+}
+
+
+
+
+.borders {
+    border: 1px solid rgba(199, 198, 199, 0.2);
+    border-radius: 4px;
+}
+
+.border-active {
+    transform: scale(1.05);
+    transition: all .33s ease-in-out;
+    border-color: #474E68;
+}
+
+.pricing-boxs {
+    margin-top: 80px;
+}
+
+.pricing-title {
+    font-size: 35px;
+    color: #917a7a;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* .price {
+    color: #06283D;
+    font-size: 40px;
+} */
+
+.muhasebe-features{
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.pricing-father {
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.banner{
+    background: url(/images/bg_sblue_img.jpg);
+    width: 100%;
+    height: 220px;
+    margin-top: 170px;
+}
+.banner-title{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.banner-description{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+
+@media (max-width: 767px) {
+    .pricing-elements{
+        margin-top: 30px;
+    }
+
+    .pricing-elements:first-child{
+        margin-top: unset;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+.body{
+font-family: 'Roboto' ,sans-serif;
+height: 100vh;
+display: grid;
+justify-content: center;
+align-items: center;
+font-size: 0.9rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+    height: 600px;
+    width: 1200px;
+    text-align: center;
+   
+}
+thead{
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);       
+}
+th{
+    padding: 10px;
+    color: #463853;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+   
+}
+td{
+    padding: 1rem 2rem;
+    color: #463853;
+}
+tr:nth-child(even){
+    background-color: rgba(255, 228, 196, 0.342);
+}
+.kobi{
+    height:100px;
+} */
